@@ -9,7 +9,7 @@
   <div class='calendar'>
     <% @week_days.each do |day| %>
       <div class='item'>
-        <div class='date'>
+        <div class='date' style='text-align: center;'>
 　　　　　　<%= "#{day[:month]}/#{day[:date]} #{day[:weekday]}" %>
         </div>
         <ul class='content'>
